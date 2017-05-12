@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="9e0045a1fd9102287227101bff15ef7d4a7ab3c4" datatype="html">
+        <source>about works!</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/htdocs/aProject/src/app/about/about.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="317c9fb0cb2f0acf3bcab2ef5a61de2876eb277e" datatype="html">
+        <source>work works!</source>
+        <target/>
+        <context-group purpose="location">
+          <context context-type="sourcefile">D:/htdocs/aProject/src/app/work/work.component.ts</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

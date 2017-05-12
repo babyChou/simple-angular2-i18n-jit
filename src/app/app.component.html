@@ -1,0 +1,16 @@
+<h1>
+  {{title}}
+</h1>
+<select [(ngModel)]="selectedLang" (change)="changeLang()">
+  <option *ngFor="let lang of langs" [ngValue]="lang">{{lang.name}}</option>
+</select>
+
+<!--<select [(ngModel)]="jobRole.userType" #userType="ngModel">
+  <option *ngFor="let uT of userTypes" [ngValue]="uT">{{uT.description}}</option> </select>-->
+
+<a routerLink="/about">About</a>
+<a routerLink="/work">Work</a>
+
+<router-outlet></router-outlet>
+
+http://codetrixstudio.com/internationalization-i18n-angular-2-webpacks/
