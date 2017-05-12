@@ -10,7 +10,7 @@ Run `apache` for a dev server.
 
 2.add config to `.htaccess`
 
-`<IfModule mod_rewrite.c>
+<IfModule mod_rewrite.c>
 
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-d
@@ -18,7 +18,7 @@ Run `apache` for a dev server.
 
     RewriteRule ^ index.html [L]
 
-</IfModule>`
+</IfModule>
 
 
 ## Build
