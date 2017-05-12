@@ -7,7 +7,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run `apache` for a dev server.
 
 1.enable the `rewrite module`
+
 2.add config to `.htaccess`
+
 `<IfModule mod_rewrite.c>
 
     RewriteEngine On
@@ -31,5 +33,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Referance (Thanks for the Referance)
 
 1.[https://github.com/angular/angular-cli/wiki/stories-internationalization](https://github.com/angular/angular-cli/wiki/stories-internationalization)
+
 2.[http://codetrixstudio.com/internationalization-i18n-angular-2-webpacks/](http://codetrixstudio.com/internationalization-i18n-angular-2-webpacks/)
+
 3.[https://github.com/angular/angular-cli/issues/2327](https://github.com/angular/angular-cli/issues/2327)
