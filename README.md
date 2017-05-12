@@ -10,16 +10,15 @@ Run `apache` for a dev server.
 
 2.add config to `.htaccess`
 
+```
 <IfModule mod_rewrite.c>
-
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
 
     RewriteRule ^ index.html [L]
-
 </IfModule>
-
+```
 
 ## Build
 
